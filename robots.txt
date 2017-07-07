@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /backPage/
+Disallow: /munin/
+Disallow: /resources/

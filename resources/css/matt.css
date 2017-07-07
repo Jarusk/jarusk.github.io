@@ -1,0 +1,47 @@
+body {
+  padding-top: 100px;
+  background-color: #333;
+  color: #FFF;
+  text-align: center;
+}
+
+.btn {
+  color: white;
+}
+
+.btn:focus, .btn:active, .btn:hover {
+  color: #337ab7;
+}
+
+.chunk {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.lighter {
+  background-color: #404040;
+}
+
+#skill-list {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  margin: 10px;
+}
+
+.project {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+
+.modal {
+  color: #000;
+  text-align: justify;
+}
+
+.navbar-brand {
+  line-height: 1em;
+}

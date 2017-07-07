@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="/favicon.ico">
+	<title>ChunkyTerm</title>
+	<link type="text/css" rel="stylesheet" href="/resources/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="/resources/css/matt.css">
+	<link type="text/css" rel="stylesheet" href="/resources/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="icon" href="favicon.ico" />
+</head>
+
+<body id="top">
+
+	<h1>FitBit API Info</h1>
+	
+	<script type="text/javascript">
+		var url = window.location.href;
+		var args = url.split("#")[1].split("&");
+
+		for (var elem in args) {
+			var pieces = args[elem].split("=");
+			document.write("<h2>"+pieces[0]+"</h2>"+pieces[1]+"<br>");
+		}
+	</script>
+
+</body>
+
+</html>
